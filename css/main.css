@@ -10,12 +10,16 @@
   background-color: #5bc1ac;
   color: white;
   text-align: center;
+  
 }
 
 .top-header-text {
   padding: 0 5px;
   margin: 0;
   font-size: 14px;
+  position: relative;
+  animation-name: anim2;
+  animation-duration: 8s;
 }
 
 .top-header-text > a {
@@ -111,6 +115,11 @@
     right: 40%;
     left: 40%;
   }
+  .top-header-text {
+    
+    animation-name: anim;
+    animation-duration: 8s;
+  }
 }
 
 .banner-text > h1 {
@@ -151,6 +160,11 @@
   .cards-wrapper {
     display: flex;
     flex-direction: row !important;
+  }
+  .top-header-text {
+    
+    animation-name: anim;
+    animation-duration: 8s;
   }
 }
 
@@ -299,4 +313,14 @@
   color: white;
 }
 
-/* End of Copyright CSS */
+@keyframes anim {
+  0%   {left:-900px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+@keyframes anim2 {
+  0%   {left:-400px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+
