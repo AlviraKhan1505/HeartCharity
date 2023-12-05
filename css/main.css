@@ -1,0 +1,304 @@
+/* Body Wrapper Styles */
+.body_wrapper {
+  margin: 0;
+  width: 100%;
+}
+
+/* Start of top Header CSS */
+.top-header-container {
+  padding: 10px 0;
+  background-color: #5bc1ac;
+  color: white;
+  text-align: center;
+}
+
+.top-header-text {
+  padding: 0 5px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.top-header-text > a {
+  text-decoration: none;
+  color: white;
+}
+/* End of top Header CSS */
+
+/* Start of Main Header CSS */
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.logo-container > a {
+  text-decoration: none;
+}
+
+.logo-container > a > img {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto !important;
+  width: 80px;
+}
+
+.logo-text {
+  /* display: inline-block;
+  vertical-align: middle; */
+  color: #5bc1ac;
+  font-size: 22px;
+  font-weight: 700;
+}
+.logo-text:hover {
+  color: #5a6f80;
+}
+
+.logo-text > small {
+  color: #5a6f80;
+  display: block;
+  font-size: 10px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar-item-container {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navbar-item {
+  list-style: none;
+  padding: 0 5px;
+}
+
+.navbar-item > a {
+  text-decoration: none;
+  color: #717275;
+}
+
+.navbar-item > a:hover {
+  color: #5bc1ac;
+}
+/* End of Main Header CSS */
+
+/* Start of Banner CSS */
+
+.banner-imgage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.banner-text {
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: auto;
+}
+
+@media only screen and (min-width: 898px) {
+  .banner-text {
+    position: absolute;
+    top: 80%;
+    right: 40%;
+    left: 40%;
+  }
+}
+
+.banner-text > h1 {
+  font-weight: 800;
+  color: rgb(8, 34, 27);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner-text > p {
+  font-weight: 500;
+  color: rgb(8, 34, 27);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* End of Banner CSS */
+
+/* Start of Cards CSS */
+
+.cards-container {
+  padding: 50px 0;
+  
+}
+.cards-title-wrapper {
+  text-align: center;
+  color: #5a6f80;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 48px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1090px) {
+  .cards-wrapper {
+    display: flex;
+    flex-direction: row !important;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: 40px 70px;
+}
+.card:hover {
+  background: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.featured-block-text {
+  color: #5bc1ac;
+  font-size: 24px;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+
+.d-block {
+  text-decoration: none;
+}
+
+/* End of Cards CSS */
+
+/* Start of Story CSS */
+.story-container {
+  padding: 50px 45px;
+  background-color: #f0f8ff;
+}
+
+.story-image-container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.story-card-wrapper {
+  margin: 30px 0;
+  background-color: white;
+  border-radius: 20px;
+  text-align: left;
+  padding: 30px;
+}
+
+.story-card-wrapper > h2 {
+  font-size: 32px;
+  color: #5a6f80;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.story-card-wrapper > h5 {
+  margin-bottom: 16px;
+  margin-top: 0px;
+  color: #5bc1ac;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.story-card-wrapper > p {
+  color: #717275;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* End of Story CSS */
+
+/* Start of Footer CSS */
+
+.footer-container {
+  padding: 50px 0;
+  background-color: #44525d;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1090px) {
+  .footer-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.footer-img-wrapper {
+  margin-bottom: 24px;
+}
+.footer-img-wrapper > img {
+  width: 80px;
+  height: auto;
+}
+@media only screen and (min-width: 1090px) {
+  .footer-img-wrapper {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+.footer-info-container {
+  margin-bottom: 16px;
+}
+
+.footer-info-container > h5 {
+  font-size: 20px;
+  color: #5bc1ac;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-menu {
+  list-style: none;
+  padding: 0px;
+}
+.footer-menu-item {
+  margin-bottom: 10px;
+}
+.footer-menu-link {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-text > a {
+  color: white;
+  text-decoration: none;
+}
+/* End of Footer CSS */
+/* Start of Copyright CSS */
+
+.copyrght-container {
+  background-color: #5a6f80;
+  padding: 25px 0;
+  text-align: center;
+}
+
+.copyright-text {
+  margin: 0px;
+  color: white;
+}
+
+.copyright-text > a {
+  text-decoration: none;
+  color: white;
+}
+
+/* End of Copyright CSS */
